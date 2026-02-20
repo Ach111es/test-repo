@@ -6,7 +6,7 @@ require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-playground/validator/v10 v10.23.0
 	github.com/jwalton/go-supportscolor v1.2.0
-	github.com/sirupsen/logrus v1.9.3 //test comment
+	github.com/sirupsen/logrus v1.9.3
 )
 
 require (

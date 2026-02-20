@@ -52,7 +52,7 @@ func InitRouter(configuration utility.Configuration, router *gin.Engine) *gin.En
 			buf.String(),
 			c.Errors.String(),
 		)
-		// test comment
+
 		var fileName string
 
 		logFilePath := configuration.Log.LogFilePath
