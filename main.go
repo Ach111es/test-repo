@@ -42,6 +42,6 @@ func main() {
 		if errServer != nil {
 			utility.PrintConsole(fmt.Sprintf("%v", errServer.Error()), "error")
 		}
-
+		// test comment
 	}
 }
