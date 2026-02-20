@@ -1,0 +1,25 @@
+{
+    "http": {
+        "http_port": "5001",
+        "max_allowed_simultaneous_connections": 1000
+    },
+    "queue": {
+        "host": "10.0.7.106",
+        "port": 61616,
+        "queue_name": "pct.bento.sync.api",
+        "username": "admin",
+        "password": "JAtis123!@#"
+    },
+    "api_keys": [
+        "pct-api-key-123456"
+    ],
+    "timezone": {
+        "location": "Asia/Bangkok",
+        "format": "2006-01-02 15:04:05"
+    },
+    "log": {
+        "logs_file_path": "logs/",
+        "error_filename": "api_bento_error",
+        "debug_filename": "api_bento_debug"
+    }
+}
